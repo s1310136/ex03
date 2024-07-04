@@ -6,8 +6,9 @@ int main(){
   srand(time(NULL));
   int randV,cnt,i;
   char name[20];
-  //printf("Who are you? ");
-  //scanf("%s",&name);
+  printf("Who are you? ");
+  scanf("%s",&name);
+  printf("Hello, %s", name);
   printf("Tossing a coin...\n");
   for(i=0;i<3;i++){
     randV = rand()%2;
