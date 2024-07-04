@@ -19,7 +19,7 @@ int main(){
       printf("Round %d: Tails\n",i+1);
     }
   }
-  /*if(cnt>=2){
-    printf("%s won!\n",name);
-  }else printf("%s You lost\n",name);
-*/}
+  if(cnt>=2){
+    printf("You won!\n");
+  }else printf("You lost\n");
+}
