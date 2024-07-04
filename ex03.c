@@ -21,6 +21,6 @@ int main(){
     }
   }
   if(cnt>=2){
-    printf("You won!\n");
-  }else printf("You lost\n");
+    printf("%s won!\n",name);
+  }else printf("%s lost\n",name);
 }
